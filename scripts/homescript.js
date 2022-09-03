@@ -177,7 +177,7 @@ const handleScrollUP = () => {
 const reset = () => {
     page = 1
     startSlice = 0
-    isEndScroll = 5
+    endSlice = 7
     isEndScroll = false
 }
 
