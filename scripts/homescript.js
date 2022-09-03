@@ -159,8 +159,9 @@ const showScrollLoading = () => {
             page++;
             getMovies(true)
         }else{
-            startSlice+=endSlice - startSlice
-            endSlice+=endSlice
+            const jump = endSlice - startSlice
+            startSlice+=jump
+            endSlice+=jump
             getFavoritesMovies(true)
         }
     }, 500);
