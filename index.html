@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <title>Movies Catalog</title>
+</head>
+<body>
+    <header id="header">
+        <select class="sortBy">
+            <option value="popular">Popular</option>
+            <option value="now">Now Playing</option>
+            <option value="favorites">My Favorites</option>
+        </select>
+    </header>
+    <main id="main">
+    </main>
+    <div class="scrollLoader">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+    <div class="time-out-error slide-in-bottom">
+        <h3></h3>
+    </div>
+    <div onclick="handleScrollUP()" class="scroll-up-btn">
+        <i class="ri-arrow-up-line"></i>
+    </div>
+    <script src="/scripts/mainscript.js"></script>
+    <script src="/scripts/homescript.js"></script>
+</body>
+</html>
