@@ -4,7 +4,7 @@
     ==================
     There is an infinity scroll in all 3 categories:
     'Popular','Now Playind' and 'Favorites'
-    in Favorites the scroll reload 5 movies every single time - It can be changed by the variables startSlice and endSlice
+    in Favorites the scroll reload 7 movies every single time - It can be changed by the variables startSlice and endSlice
     and all the rest of categories 20 movies in every single time 
 
     The favorites id's movies store in local storage
@@ -27,7 +27,7 @@ let allowScroll = true
 
 // For favorites
 let startSlice = 0
-let endSlice = 5
+let endSlice = 7
 // To know when all the data displayed and stop try to fetch again
 let isEndScroll = false
 
